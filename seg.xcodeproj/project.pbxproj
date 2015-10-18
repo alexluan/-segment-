@@ -14,6 +14,8 @@
 		0AD912831B85FF52000FFB4B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AD912821B85FF52000FFB4B /* Images.xcassets */; };
 		0AD912861B85FF52000FFB4B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AD912841B85FF52000FFB4B /* LaunchScreen.xib */; };
 		0AD912921B85FF52000FFB4B /* segTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD912911B85FF52000FFB4B /* segTests.m */; };
+		0AD9129D1B8607EA000FFB4B /* SegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD9129C1B8607EA000FFB4B /* SegmentView.m */; };
+		0AD912A11B860B57000FFB4B /* SegView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD912A01B860B57000FFB4B /* SegView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		0AD9128B1B85FF52000FFB4B /* segTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = segTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AD912901B85FF52000FFB4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0AD912911B85FF52000FFB4B /* segTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = segTests.m; sourceTree = "<group>"; };
+		0AD9129B1B8607EA000FFB4B /* SegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentView.h; sourceTree = "<group>"; };
+		0AD9129C1B8607EA000FFB4B /* SegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentView.m; sourceTree = "<group>"; };
+		0AD9129F1B860B57000FFB4B /* SegView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegView.h; sourceTree = "<group>"; };
+		0AD912A01B860B57000FFB4B /* SegView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,10 @@
 				0AD912821B85FF52000FFB4B /* Images.xcassets */,
 				0AD912841B85FF52000FFB4B /* LaunchScreen.xib */,
 				0AD912751B85FF52000FFB4B /* Supporting Files */,
+				0AD9129B1B8607EA000FFB4B /* SegmentView.h */,
+				0AD9129C1B8607EA000FFB4B /* SegmentView.m */,
+				0AD9129F1B860B57000FFB4B /* SegView.h */,
+				0AD912A01B860B57000FFB4B /* SegView.m */,
 			);
 			path = seg;
 			sourceTree = "<group>";
@@ -221,6 +231,8 @@
 			files = (
 				0AD9127E1B85FF52000FFB4B /* ViewController.m in Sources */,
 				0AD9127B1B85FF52000FFB4B /* AppDelegate.m in Sources */,
+				0AD912A11B860B57000FFB4B /* SegView.m in Sources */,
+				0AD9129D1B8607EA000FFB4B /* SegmentView.m in Sources */,
 				0AD912781B85FF52000FFB4B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +430,7 @@
 				0AD912971B85FF52000FFB4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0AD912981B85FF52000FFB4B /* Build configuration list for PBXNativeTarget "segTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +439,7 @@
 				0AD9129A1B85FF52000FFB4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
